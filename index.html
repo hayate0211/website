@@ -8,13 +8,24 @@
         margin: 0;
         background-color:#CCCCFF;
       }
+      .image-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .image-container img {
+        width: calc(33.33% - 10px);
+        height: auto;
+      }
     </style>
   </head>
   <body>
     <h1>かれんの写真</h1>
     <hr>
-    <img src="./images/karen1.png">
-    <img src="./images/karen2.png">
-    <img src="./images/karen3.png">
+    <div class="image-container">
+      <img src="./images/karen1.png">
+      <img src="./images/karen2.png">
+      <img src="./images/karen3.png">
+    </div>
   </body>
 </html>
