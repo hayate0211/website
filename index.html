@@ -2,11 +2,30 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <title>かれんの写真</title>
+    <title>かれんまとめ</title>
     <style>
       body {
         margin: 0;
         background-color: #CC00CC;
+      }
+      hr {
+        height: 5px;
+        background-color: #000000;
+        border-color: #000000
+      }
+      h1 {
+        margin: 20px;
+        font-size: 60px;
+      }
+      h2 {
+        font-size: 40px;
+      }
+      h3 {
+        margin: 0px;
+        font-size: 30px;
+      }
+      p {
+        font-size: 20px;
       }
       .image-container {
         display: flex;
@@ -17,27 +36,40 @@
         width: calc(33.33% - 10px);
         height: auto;
       }
+      .letter {
+        margin: 30px;
+        margin-right: 600px;
+        padding: 10px;
+        padding-left: 20px;
+        background-color: #FF99FF;
+      }
     </style>
   </head>
   <body>
-    <h1>かれんの写真</h1>
+    <h1>かれんまとめ</h1>
     <hr>
+    <h2>■かれんの写真</h2>
     <div class="image-container">
       <img src="./images/karen1.png">
       <img src="./images/karen2.png">
       <img src="./images/karen3.png">
     </div>
-    <h2>ひな</h2>
-    <p>
-      かれんへ。<br>
-      いつも本当にありがとう。悩んでいる時にそっと話を聞いてくれたり、くだらないことで一緒に笑い合ったり、そんな時間が私にとって本当に大切で、かれんの存在に何度も救われています。<br>
-      気づけば、どんな時も自然体でいられるのはかれんのおかげです。これからもずっと仲良くしてね。大好きだよ。
-    </p>
-    <h2>ゆうた</h2>
-    <p>
-      かれんへ。<br>
-      いつもそばにいてくれて本当にありがとう。どんな時も明るくて優しいかれんと過ごす時間が、私の毎日の癒しであり元気の源です。<br>
-      落ち込んだ時にかけてくれる言葉や笑顔に、何度も助けられました。これからもたくさん笑って、素敵な思い出を一緒に作っていこうね。
-    </p>
+    <h2>■かれんへの手紙</h2>
+    <div class="letter">
+      <h3>ひな</h3>
+      <p>
+        かれんへ。<br>
+        いつも本当にありがとう。悩んでいる時にそっと話を聞いてくれたり、くだらないことで一緒に笑い合ったり、そんな時間が私にとって本当に大切で、かれんの存在に何度も救われています。<br>
+        気づけば、どんな時も自然体でいられるのはかれんのおかげです。これからもずっと仲良くしてね。大好きだよ。
+      </p>
+    </div>
+    <div class="letter">
+      <h3>ゆうた</h3>
+      <p>
+        かれんへ。<br>
+        いつもそばにいてくれて本当にありがとう。どんな時も明るくて優しいかれんと過ごす時間が、私の毎日の癒しであり元気の源です。<br>
+        落ち込んだ時にかけてくれる言葉や笑顔に、何度も助けられました。これからもたくさん笑って、素敵な思い出を一緒に作っていこうね。
+      </p>
+    </div>
   </body>
 </html>
