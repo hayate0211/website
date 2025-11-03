@@ -36,12 +36,20 @@
         width: calc(33.33% - 10px);
         height: auto;
       }
+      .letters-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+      }
       .letter {
-        margin: 30px;
-        margin-right: 600px;
-        padding: 10px;
-        padding-left: 20px;
         background-color: #FF99FF;
+        border-radius: 16px;
+        padding: 2rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        max-width: 1800px;
+        width: 90%;
+        text-align: left;
       }
     </style>
   </head>
@@ -55,21 +63,23 @@
       <img src="./images/karen3.png">
     </div>
     <h2>■かれんへの手紙</h2>
-    <div class="letter">
-      <h3>ひな</h3>
-      <p>
-        かれんへ。<br>
-        いつも本当にありがとう。悩んでいる時にそっと話を聞いてくれたり、くだらないことで一緒に笑い合ったり、そんな時間が私にとって本当に大切で、かれんの存在に何度も救われています。<br>
-        気づけば、どんな時も自然体でいられるのはかれんのおかげです。これからもずっと仲良くしてね。大好きだよ。
-      </p>
-    </div>
-    <div class="letter">
-      <h3>ゆうた</h3>
-      <p>
-        かれんへ。<br>
-        いつもそばにいてくれて本当にありがとう。どんな時も明るくて優しいかれんと過ごす時間が、私の毎日の癒しであり元気の源です。<br>
-        落ち込んだ時にかけてくれる言葉や笑顔に、何度も助けられました。これからもたくさん笑って、素敵な思い出を一緒に作っていこうね。
-      </p>
+    <div class="letters-container">
+      <div class="letter">
+        <h3>ひな</h3>
+        <p class="message">
+          かれんへ。<br>
+          いつも本当にありがとう。悩んでいる時にそっと話を聞いてくれたり、くだらないことで一緒に笑い合ったり、そんな時間が私にとって本当に大切で、かれんの存在に何度も救われています。<br>
+          気づけば、どんな時も自然体でいられるのはかれんのおかげです。これからもずっと仲良くしてね。大好きだよ。
+        </p>
+      </div>
+      <div class="letter">
+        <h3>ゆうた</h3>
+        <p class="message">
+          かれんへ。<br>
+          いつもそばにいてくれて本当にありがとう。どんな時も明るくて優しいかれんと過ごす時間が、私の毎日の癒しであり元気の源です。<br>
+          落ち込んだ時にかけてくれる言葉や笑顔に、何度も助けられました。これからもたくさん笑って、素敵な思い出を一緒に作っていこうね。
+        </p>
+      </div>
     </div>
   </body>
 </html>
